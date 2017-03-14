@@ -1,0 +1,26 @@
+ <style type="text/css">
+     html { 
+  background: url(img_flower.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+            li {
+                list-style-image: url('Images/hand_point.png');
+                 background-color: azure;
+            }
+           
+           h1 {
+               font-size: 24px;
+               font-family: "Courier New";
+               text-shadow: 2px 2px red;
+           }
+          p a {
+               color:indianred;
+           }
+           /*no comma: style all standalones*/
+           p {
+               color: darkred;
+               font-weight: bold;
+               background-color: azure;
+           }
+           
+       </style>
