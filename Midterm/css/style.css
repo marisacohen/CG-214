@@ -1,0 +1,49 @@
+/*This is the CSS page used just for the home page*/
+
+
+/*the paragraph under my picture, for font and color, and a small margin so its not up against the edge of the window.*/
+body {
+font-family: 'Droid Serif', serif;
+margin: 10;
+color: #00cc99;
+}
+
+/*this centers my self portrait on the page*/
+img {
+    display: block;
+    margin: auto;
+}
+
+/*center and colors and font etc for the nav buttons at the top of the page*/
+#header {
+	background-color: #008060;
+	padding:10px;
+	color: white;
+	text-align: center;
+    font-family: 'Griffy', cursive;
+}
+
+/*center and colors and font for the nav buttons at the top of the page*/
+#main-nav{
+    background-color:#00e6e6;
+    text-align: center;
+    font-family: 'Griffy', cursive;
+}
+
+a {
+	color: black;
+	padding: 10px;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 72px;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+a:hover{
+	background-color: #008060;
+	color: white;

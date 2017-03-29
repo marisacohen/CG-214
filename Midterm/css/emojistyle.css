@@ -1,0 +1,151 @@
+/*this is labled emojistyle but its actually the css page I also used for the TVshow page. The TVshow page needed very little out of a css page so I thought it made more sense to combine them since they have the same fonts and colors anyway.*/
+
+/*the top navigaton for the emoji and TVshow page*/
+#nav{
+    background-color:#00e6e6;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Griffy', cursive;
+    text-decoration: none
+}
+
+/*the navigation at the bottom of the emoji page "back to top" button*/
+#bottom nav{
+    background-color:#00e6e6;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Griffy', cursive;
+    text-decoration: none
+}
+/*just defining the font and color of the basic text on both pages and a small margin*/
+body {
+font-family: 'Droid Serif', serif;
+margin: 3;
+color: #00cc99;
+background-color: #008060;
+}
+
+/*this mostly applies to the TVshow page, where I put "back to top" buttons in each div for every different show*/
+div a{
+        background-color:#00e6e6;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Griffy', cursive;
+    text-decoration: none
+}
+
+/*I used this to keep all the divs centered on the page (this took a lot of experementing before I really got this to work).*/
+div {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center
+}
+
+/*the next several lines are the code for the emojis, so when you hover on a blank face, its switched with an expression, and each one is different.*/
+.switchimageangry {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/blank%20emoji.png');   
+		}
+
+.switchimageangry:hover {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/angry%20emoji.png');  
+}
+
+.switchimagetongue {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/blank%20emoji.png');   
+		}
+
+.switchimagetongue:hover {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/tongue%20emoji.png');  
+}
+
+.switchimageirritated {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/blank%20emoji.png');   
+		}
+
+.switchimageirritated:hover {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/irritated%20emoji.png');  
+}
+
+.switchimageconfused {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/blank%20emoji.png');   
+		}
+
+.switchimageconfused:hover {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/confused%20emoji.png');  
+}
+
+
+.switchimageshock {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/blank%20emoji.png');   
+		}
+
+.switchimageshock:hover {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/shock%20emoji.png');  
+}
+
+.switchimagesuprise {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/blank%20emoji.png');   
+		}
+
+.switchimagesuprise:hover {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/suprise%20emoji.png');  
+}
+
+.switchimagelaughing {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/blank%20emoji.png');   
+		}
+
+.switchimagelaughing:hover {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/laughing%20emoji.png');  
+}
+
+.switchimageevil {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/blank%20emoji.png');   
+		}
+
+.switchimageevil:hover {
+                width: 555px; 
+                height: 555px;
+                background: url('../images/evil%20smile%20emoji.png');  
+}
+
+/*this applies to the bottom nav on the emoji page so that when you hover over it, the background and font colors change.*/
+a:hover{
+	background-color: #008060;
+	color: white;
+}
+/*this one applies to the "back to top" buttons on the TVshow page when you hover over them   */
+div a:hover{
+	background-color: #008060;
+	color: white;
