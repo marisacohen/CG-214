@@ -1,0 +1,180 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+body {
+  width: 90%;
+margin:0px auto;
+  max-width: 900px;
+  min-width: 300px;
+  font-family: 'Work Sans', sans-serif;
+  color: black;  
+}
+
+
+#header {
+    height: 80px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid grey;
+}
+
+#main-logo {
+    width: 150px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.search {
+    width: 30%;
+    height: 40px; 
+    margin-top:15px;
+    float:left;
+    margin-left: 10%;
+}
+
+
+.search input { 
+    font-size: 13px;
+    margin: 0 auto;
+
+}
+
+#searchBox{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 2px solid #ededed;
+}
+
+/*POSITIONING AND STYLING FOR BUTTONS*/
+#loginButtons {
+    margin-top:15px;
+    height: 40px;
+    float: right;
+    /*use position relative to tweak positioning*/
+
+}
+
+
+button{
+    font-size: 14px;
+    margin: auto;
+/*
+    margin-left:10px;
+    margin-right: 10px;
+*/
+    height: 100%;
+    color: deepskyblue;
+    border-style: none;
+    background: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+p{
+    font-size: 10px;
+}
+
+
+
+footer{
+    font-size: 9px;
+}
+
+.getapp {
+    color: white;
+    background: deepskyblue;
+}
+
+h4{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 200;
+    float: left;
+}
+
+h5{
+    font-size: 12px;
+      line-height: 5px;
+    font-weight: 200;
+    float: left;
+}
+
+.firstline{
+    margin-left: 3px;
+    position: relative;
+}
+
+.title{
+    margin-left: 3px;
+    position: relative;
+}
+
+.Follow {
+    margin-top: 55px;
+    margin-left: 15px;
+    font-size: 15;
+    border: 1px solid deepskyblue;
+    color: deepskyblue
+
+}
+#secondrow {
+     width: 1005px;
+    margin: 0 auto;
+     padding: 0;
+    position: center;
+     overflow: auto;
+}
+
+.words{
+    margin-top: 50;
+    font-size: 20;
+}
+
+
+#leftcolumn, #rightcolumn {
+    float: left;
+    min-height: 200px;
+}
+#leftcolumn {
+     width: 250px;
+}
+#rightcolumn {
+     width: 750px;
+}
+
+#container {
+  max-width:800px;
+  margin: 0 auto;
+}
+
+
+
+.grid {
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.griditem {
+    width: 200px;
+    height: 200px;
+    color: white;
+    padding: 10px;
+    margin: 3px;
+    display: inline-block;
+}
+
+.loadmore {
+    display:block;
+     text-align:center;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      border: 1px solid deepskyblue;
+}
